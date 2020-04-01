@@ -1273,7 +1273,7 @@ abel {
   z-index: 3;
   display: inline-block;
   bottom: 0;
-  margin-bottom: -50px;
+  margin-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
