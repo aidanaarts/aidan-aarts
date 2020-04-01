@@ -1255,5 +1255,67 @@ abel {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+#fh5co-about .scrollImg img{
+  padding: 0;
+  margin:0;
+  border-radius: none;
+  position: relative;
+  width: 1500px;
+  height: 1000px;
+  opacity: 70%;
+
+
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  z-index: 3;
+  display: inline-block;
+  bottom: 0;
+  margin-bottom: -105px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#fh5co-about .scrollImg .box {
+  position: absolute;
+  top: 39%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width:830px;
+  height: 1500px;
+  background-color: black;
+  opacity: 70%;
+}
+
+#fh5co-about .scrollImg h1 {
+  position: absolute;
+  top: 32%;
+  left: 80px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  font-size: 118px;
+  color: white;
+  margin-left: 28%;
+  columns:2;
+}
+#fh5co-about .scrollImg p{
+  position: absolute;
+  top: 38%;
+  margin-right: 900px;
+  margin-left: 230px;
+
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  font-size: 50px;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .scrollImg h1{
+    display: block;
+    left: 600px;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
